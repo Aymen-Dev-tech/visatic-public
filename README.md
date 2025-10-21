@@ -1,4 +1,4 @@
-# 🛂 Visa Appointment Automation System
+# VisaTic - Appointment Booking Solution
 
 A powerful automation solution for booking visa appointments efficiently and reliably. This system includes a robust bot with stealth automation features and a cross-platform desktop application for managing applicants and appointments.
 
@@ -15,14 +15,17 @@ A powerful automation solution for booking visa appointments efficiently and rel
 - 🔐 Persistent Login & Session  
   Automatically logs in and preserves session state across restarts.
 
-- 🧩 Captcha Solving  
+- 🧩 Captcha Solving (if provided)
   Integrates with NoCaptchaAI API to solve captchas automatically.
 
 - 📅 Full Booking Automation  
   Automates the entire appointment booking process — from visa selection to selfie verification.
+  
+- 🕑 Timed Form Submission
+  Control the time when the bot clicks on the submit. 
 
 - 🏁 Parallel Booking  
-  Unlimited concurrent booking operations simultaneously.
+  Unlimited chrome windows operations simultaneously - depends on CPU threads.
 
 - ⚠️ Robust Error Handling  
   Gracefully handles both server-side and client-side errors.
@@ -31,10 +34,18 @@ A powerful automation solution for booking visa appointments efficiently and rel
   Automatically refreshes and retries during peak hours to maximize booking success.
 
 - 🥷 Anti-Bot Detection  
-  Bypasses bot detection mechanisms for smoother automation (BLS v6.55).
+  Mimc real user session.
 
-- 🖥 Proxy Support  
-  Supports the use of proxies for added anonymity (if provided).
+- 🧩 Browser extension loading
+  Supports loading chrome's unpacked extensions
+
+- 🖥 Proxy Support (if provided) 
+  Supports the use of proxies for added anonymity.
+  Proxies health checking before booking.
+  
+- 🌿 Friendly Resource Usage
+  Blocks unecessary resources .e.g media, JS and telemetry.
+  Saves proxy bandwidth.
 
 ---
 
@@ -48,6 +59,9 @@ A powerful automation solution for booking visa appointments efficiently and rel
 
 - 🔑 Authentication  
   Secure login with email and password credentials.
+
+- 🔍 Logs
+  Daily log generation and sharing with developer.
 
 - 🪟 Cross-Platform Compatibility  
   Works seamlessly on Windows, macOS, and Linux.
