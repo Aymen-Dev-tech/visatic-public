@@ -1,9 +1,10 @@
-# VisaTic - Appointment Booking Solution
+# 🛂 VisaTic – Visa Appointment Booking Solution
 
-A powerful automation solution for booking visa appointments efficiently and reliably. This system includes a robust bot with stealth automation features and a cross-platform desktop application for managing applicants and appointments.
+A powerful **automation solution** for booking visa appointments efficiently and reliably.  
+This system combines a **stealth-enabled automation bot** with a **cross-platform desktop app** for managing applicants and appointments.
 
 <p align="center">
-  <img src="poster.png" alt="Visa Appointment Automation System Dashboard" style="max-width:100%; height:auto; border-radius:8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="poster.png" alt="Visa Appointment Automation System Dashboard" width="800" style="border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
 ---
@@ -12,58 +13,58 @@ A powerful automation solution for booking visa appointments efficiently and rel
 
 ### 🤖 Bot Features
 
-- 🔐 Persistent Login & Session  
+- 🔐 **Persistent Login & Session**  
   Automatically logs in and preserves session state across restarts.
 
-- 🧩 Captcha Solving (if provided)
-  Integrates with NoCaptchaAI API to solve captchas automatically.
+- 🧩 **Captcha Solving (optional)**  
+  Integrates with **NoCaptchaAI API** for automatic CAPTCHA solving.
 
-- 📅 Full Booking Automation  
-  Automates the entire appointment booking process — from visa selection to selfie verification.
-  
-- 🕑 Timed Form Submission
-  Control the time when the bot clicks on the submit. 
+- 📅 **Full Booking Automation**  
+  Handles the entire booking process — from visa type selection to selfie verification.
 
-- 🏁 Parallel Booking  
-  Unlimited chrome windows operations simultaneously - depends on CPU threads.
+- 🕑 **Timed Form Submission**  
+  Precisely control when the bot submits forms during booking.
 
-- ⚠️ Robust Error Handling  
-  Gracefully handles both server-side and client-side errors.
+- 🏁 **Parallel Booking**  
+  Run multiple Chrome windows simultaneously (performance depends on CPU threads).
 
-- 🔃 Smart Retry System  
-  Automatically refreshes and retries during peak hours to maximize booking success.
+- ⚠️ **Robust Error Handling**  
+  Gracefully recovers from both server-side and client-side issues.
 
-- 🥷 Anti-Bot Detection  
-  Mimc real user session.
+- 🔃 **Smart Retry System**  
+  Automatically retries during peak hours to increase success rates.
 
-- 🧩 Browser extension loading
-  Supports loading chrome's unpacked extensions
+- 🥷 **Anti-Bot Detection Evasion**  
+  Mimics genuine user sessions to avoid detection.
 
-- 🖥 Proxy Support (if provided) 
-  Supports the use of proxies for added anonymity.
-  Proxies health checking before booking.
-  
-- 🌿 Friendly Resource Usage
-  Blocks unecessary resources .e.g media, JS and telemetry.
-  Saves proxy bandwidth.
+- 🧩 **Browser Extension Loading**  
+  Supports loading custom or unpacked Chrome extensions.
+
+- 🖥 **Proxy Support (optional)**  
+  - Supports HTTP/HTTPS/SOCKS proxies for anonymity.  
+  - Checks proxy health before each booking.  
+
+- 🌿 **Optimized Resource Usage**  
+  - Blocks unnecessary resources (e.g. media, telemetry, scripts).  
+  - Saves proxy bandwidth and system resources.
 
 ---
 
 ### 🖥 Desktop App Features
 
-- 👥 Applicant Account Management  
-  Add, edit, and delete applicant profiles easily.
+- 👥 **Applicant Account Management**  
+  Easily add, edit, or delete applicant profiles.
 
-- 🕑 Appointment Management  
-  Track, view, and manage appointment statuses across multiple users.
+- 🕑 **Appointment Management**  
+  Track, view, and manage appointments for multiple applicants.
 
-- 🔑 Authentication  
-  Secure login with email and password credentials.
+- 🔑 **Secure Authentication**  
+  Login using email and password credentials.
 
-- 🔍 Logs
-  Daily log generation and sharing with developer.
+- 🔍 **Daily Log System**  
+  Automatically generates logs that can be shared with the developer for support.
 
-- 🪟 Cross-Platform Compatibility  
-  Works seamlessly on Windows, macOS, and Linux.
+- 🪟 **Cross-Platform Support**  
+  Works seamlessly on **Windows**, **macOS**, and **Linux**.
 
 ---
